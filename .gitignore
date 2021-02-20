@@ -11,6 +11,9 @@
 # production
 /build
 
+#TMDB API
+TMDB_API.ts
+
 # misc
 .DS_Store
 .env.local
