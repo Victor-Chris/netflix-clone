@@ -1,6 +1,7 @@
 import React from 'react';
 import Row from './components/row/Row';
 import requests from './requests';
+import Nav from './components/nav/Nav';
 import Banner from './components/banner/Banner';
 
 import './App.css';
@@ -9,6 +10,7 @@ const App: React.FC = () => {
   return (
     <div className="app">
         {/** NavBar Component */}
+        <Nav />
 
         {/** Banner Component */}
         <Banner />
