@@ -1,15 +1,17 @@
 import React from 'react';
 import Row from './components/row/Row';
 import requests from './requests';
+import Banner from './components/banner/Banner';
 
 import './App.css';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <div className="app">
         {/** NavBar Component */}
 
         {/** Banner Component */}
+        <Banner />
 
         {/** Row Components */}
         <Row title="Netflix Originals" fetchURL={requests.fetchNetflixOriginals} isLargeRow />
